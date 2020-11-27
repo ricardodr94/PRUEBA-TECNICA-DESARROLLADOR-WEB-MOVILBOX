@@ -1,0 +1,177 @@
+/*li de lista de usuarios*/
+
+.container_list_users #menu_user1 li,
+.container_list_users2 #menu_user2 li,
+.container_list_users3 #menu_user3 li,
+.container_list_users4 #menu_user4 li,
+.container_list_users5 #menu_user5 li,
+.container_list_users6 #menu_user6 li,
+.container_list_users7 #menu_user7 li,
+.container_list_users8 #menu_user8 li,
+.container_list_users9 #menu_user9 li {
+    list-style: none;
+    margin-left: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+/*instrucciones generales*/
+
+* {
+    margin: auto;
+}
+
+
+/*cabecera de la página*/
+
+h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0.5em;
+}
+
+
+/*div principal del calendario*/
+
+#calendario {
+    border: 2px solid black;
+    width: 605px;
+    height: 400px;
+    background-color: #fffafa;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+/*tabla del calendario*/
+
+#diasc {
+    border: 1px solid black;
+    width: 570px;
+    height: 284px;
+}
+
+#diasc th,
+#diasc td {
+    font: normal 14pt arial;
+    width: 70px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+#diasc th {
+    color: #FAFCFB;
+    background-color: #292D2B;
+}
+
+#diasc td {
+    color: #292D2B;
+    background-color: #7CC3F2;
+    cursor: pointer;
+}
+
+
+/*línea de la fecha actual*/
+
+#fechaactual {
+    font: bold 12pt arial;
+    padding: 0.4em
+}
+
+#fechaactual i {
+    cursor: pointer;
+}
+
+#fechaactual i:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+/*formulario de busqueda de fechas*/
+
+#buscafecha {
+    background-color: #6FB2DF;
+    color: #FAFCFB;
+    padding: 5px
+}
+
+#buscafecha select,
+#buscafecha input {
+    background-color: #9bf5ff;
+    color: #000;
+    font: bold 10pt arial;
+}
+
+#buscafecha [type=text] {
+    text-align: center;
+}
+
+#buscafecha [type=button] {
+    cursor: pointer;
+}
+
+
+/*cabecera del calendario*/
+
+#anterior {
+    float: left;
+    width: 100px;
+    font: bold 12pt arial;
+    padding: 0.5em 0.1em;
+    cursor: pointer;
+}
+
+#posterior {
+    float: right;
+    width: 100px;
+    font: bold 12pt arial;
+    padding: 0.5em 0.1em;
+    cursor: pointer;
+}
+
+#anterior:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#posterior:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#titulos {
+    font: normal 20pt "arial black";
+    padding: 0.2em;
+    margin-bottom: 0px;
+}
+
+
+/*div de menu contextual*/
+
+.container_menu_contextual {
+    width: 100px;
+    height: 90px;
+    border: 1px solid #292D2B;
+    margin-top: 10px;
+    display: none;
+}
+
+.container_menu_contextual ul {
+    width: 1em;
+    height: 1em;
+    margin: 0px;
+    padding: 3px;
+}
+
+.container_menu_contextual ul li {
+    text-decoration: none;
+    border: none;
+    font-size: 12px;
+    padding: 0px 2px 0px;
+    cursor: pointer;
+}
+
+
+/* estilos para arrastrar usuarios*/
